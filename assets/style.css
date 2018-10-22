@@ -7,6 +7,7 @@
     --color-white:                #fff;
     --color-greyBg:               #fbfbfb;
     --color-greyText:             #595959;
+    --color-greySocial:           #b8b8b8;
 }
 
 html,
@@ -26,7 +27,7 @@ body {
     font-weight: 300;
     line-height: 1.4;
     color: var(--color-greyText);
-    padding: 4rem 2rem 2rem 2rem;
+    padding: 3rem 2rem 2rem 2rem;
     text-align: center;
 }
 
@@ -69,5 +70,14 @@ a:focus {
     font-size: .7rem;
 }
 
+.imprint {
+    margin-top: 3rem;
+    color: var(--color-greySocial);
+}
 
-
+@media (min-width: 20rem) {
+    .imprint {
+        display: flex;
+        justify-content: space-between;
+    }
+}
